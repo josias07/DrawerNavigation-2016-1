@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/watermelon"
+            android:title="Sandia" />
+        <item
+
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/banana"
+            android:title="Banana" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cherry"
+            android:title="Cereza" />
+
+    </group>
+
+    <item android:title="Bebidas">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/fruits"
+                android:title="Refresco de peras" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/pineapple"
+                android:title="Piña helada" />
+
+
+        </menu>
+    </item>
+
+</menu>
